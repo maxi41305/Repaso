@@ -1,0 +1,42 @@
+@use 'anidacion';
+
+
+//variable
+$color-principal: #ccc;
+$color-letra:green;
+
+body{
+    background: $color-principal;
+}
+
+h1{
+color: $color-letra;
+}
+
+p{
+
+    color:$color-letra;
+}
+
+//mixins
+@mixin caja_pesonalizada($fondo: white){
+
+    background-color: $color-principal;
+    border: 2px solid green;
+    box-shadow: 0px 0px 2px black;
+    color: $color-letra;
+}
+
+.caja{
+    @include caja_pesonalizada();
+}
+.cajasecundaria{
+    @include caja_pesonalizada();
+}
+
+//operadores
+
+.caja, .cajasecundaria{
+
+    width: 400px + 100px;
+}

@@ -1,0 +1,40 @@
+.caja h2 {
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+}
+.caja p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+body {
+  background: #ccc;
+}
+
+h1 {
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+.caja {
+  background-color: #ccc;
+  border: 2px solid green;
+  box-shadow: 0px 0px 2px black;
+  color: green;
+}
+
+.cajasecundaria {
+  background-color: #ccc;
+  border: 2px solid green;
+  box-shadow: 0px 0px 2px black;
+  color: green;
+}
+
+.caja, .cajasecundaria {
+  width: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */

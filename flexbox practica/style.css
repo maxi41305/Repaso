@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+
+
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caja{
+    border: 1px solid #ccc;
+    color: black;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+    float: left;
+    align-items: center;
+    
+}
+
+.c1{
+background: red;
+order: 2;
+}
+.c2{
+background: black;
+color: white;
+order: 1;
+}
+.c3{
+background: green;
+order: 3;
+}
+.c4{
+background:white;
+order: 4;
+}
